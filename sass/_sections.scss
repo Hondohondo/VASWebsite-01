@@ -1,0 +1,110 @@
+
+.section-one {
+  //color: #f8f9fa;
+  color: #ced4da;
+  //color: #495057;
+  //color: #212529;
+}
+
+.section-two {
+  position: relative;
+  //background-color: #c92a2a; //amigo-9-red
+
+  //background-color: #192644;
+
+  background-color: #212529;
+}
+
+.img-container-link {
+  display: block;
+  opacity: .7;
+  transition: all .5s;
+
+  &:hover {
+    //opacity: .35;
+    opacity: .3;
+  }
+}
+
+.vas-img {
+  width: 100%;
+  height: 100%;
+  //height: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: block;
+  //z-index: -1;
+}
+
+.content-wrap {
+  position: absolute;
+  //top: 0;
+  //left: 0;
+  //width: 100%;
+  //height: 100%;
+  //display: flex;
+  //padding: 22px 25px 30px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+.section-two {
+  //background-color: red;
+  //background-image: url("../images/vas-4.JPG");
+  //background-image: linear-gradient(to right,#ff6b6b, #c92a2a), url("../images/vas-1.JPG");
+  //background-image: linear-gradient(to right, rgba(255, 135, 135, 0.8), rgba(201, 42, 42, 0.8)), url("../images/vas-1.JPG");
+
+  //opacity: .2;
+
+  background-size: cover;
+  height: 60rem;
+
+  color: white;
+}
+
+
+
+.section-three {
+  position: relative;
+  background-color: #212529;
+  //background-image: url("../images/vas-5.jpg");
+  //background-image: linear-gradient(to right,#ff8787, #c92a2a), url("../images/vas-1.JPG");
+  //background-image: linear-gradient(to right, rgba(255, 135, 135, 0.8), rgba(201, 42, 42, 0.8)), url("../images/vas-1.JPG");
+  //background-image: linear-gradient(to right, rgba(255, 135, 135, 0.6), rgba(201, 42, 42, 0.6)), url("../images/vas-1.JPG");
+  //background-image: linear-gradient(to right,#f03e3e, #c92a2a), url("../images/vas-1.JPG");
+
+  background-size: cover;
+  background-position: top;
+  height: 60rem;
+
+  color: white;
+
+}
+
+.section-four {
+  position: relative;
+  background-color: #212529;
+  //background-image: url("../images/vas-7.JPG");
+  //background-image: linear-gradient(to right,#fff5f5, #c92a2a), url("../images/vas-1.JPG");
+  //background-image: linear-gradient(to right,#c92a2a, #c92a2a), url("../images/vas-1.JPG");
+  background-size: cover;
+  height: 60rem;
+
+  color: white;
+}
+.section-five {
+  position: relative;
+  background-color: #212529;
+  //background-image: url("../images/vas-8.jpg");
+  //background-image: linear-gradient(to right bottom, #7ed56f, #28b485), url("../images/vas-1.JPG");
+  //background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8)), url("../images/vas-1.JPG");
+  background-size: cover;
+  height: 60rem;
+
+  color: white;
+}

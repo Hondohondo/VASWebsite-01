@@ -1,0 +1,55 @@
+@mixin clearfix {
+  &::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+.row {
+  max-width: 114rem;
+  background-color: #eee;
+  margin: 0 auto;
+
+
+  &:not(:last-child) {
+    margin-bottom: 8rem;
+  }
+
+  @include clearfix;
+
+  [alt="logo"] {
+    //select all elements with alt=logo
+  }
+
+  //select classes that starts with (^)
+  [class^="col-"] {
+    background-color: orangered;
+    float: left;
+
+    &:not(:last-child) {
+      margin-right: 6rem;
+    }
+  }
+
+  .col-1-of-2 {
+    width: calc((100% - 6rem) / 2);
+
+  }
+
+  .col-1-of-3 {
+    width: calc((100% - 2 * 6rem) / 3);
+  }
+  .col-2-of-3 {
+    width: calc(2* ((100% - 2 * 6rem) / 3) + 6rem );
+  }
+  .col-1-of-4 {
+    width: calc((100% - 3 * 6rem) / 4);
+  }
+  .col-2-of-4 {
+    width: calc(2* ((100% - 3 * 6rem) / 4) + 6rem) ;
+  }
+  .col-3-of-4 {
+    width: calc(3* ((100% - 3 * 6rem) / 4) + 2*6rem) ;
+  }
+}
